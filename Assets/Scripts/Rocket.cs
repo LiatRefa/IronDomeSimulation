@@ -5,8 +5,7 @@ using UnityEngine;
 public abstract class Rocket : MonoBehaviour
 {
     public bool Hit = false;
-    public GameObject RocketPrefab;
-    public float speed; 
+    public float speed = 1; 
     public float Height;
 
     public virtual void Movement()
